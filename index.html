@@ -10,23 +10,81 @@
 
 <body>
     <header>
-        <div id="toboolist">
-            <img src="logo.png" alt="">
-            <div id="titolo"><b>Toboolist</b></div>
-        </div>
+        <img src="logo.png" alt="">
+        <h1>Toboolist</h1>
     </header>
-    <main>
-        <div id="box1">
-            <div id="bottoni">
-                <button id="bottone1">Add Task</button>
-                <button id="bottone2">Add Section</button>
+
+    <main class="container">
+        <div class="rettangolo1">
+            <div class="toboolist">
+                <button class="btn1">Add Task</button>
+                <button class="btn2">Add Section</button>
             </div>
+        </div>
+        <div class="rettangolo2">
             <ul>
                 <li>
-                    <h3>&#x25BC;New task</h3>
+                    <h3>&blacktriangledown;New task</h3>
+                    <ul class="task list">
+                        <li class="task item">
+                            <span class="task-status task-done">&check;</span>
+                            <span class="task-text"> Quaerterly Newsletter</span>
+                            <span class="task-badge editorial">Editorial</span>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>&blacktriangledown;Upcoming</h3>
+                    <ul class="task list">
+                        <li class="task item">
+                            <span class="task-status task-done">&check;</span>
+                            <span class="task-text"> Recruiting blog post</span>
+                            <span class="task-badge editorial"> Editorial</span>
+                        </li>
+                        <li>
+                            <span class="task-status task-done">&check;</span>
+                            <span class="task-text"> Mobile app launch</span>
+                            <span class="task-badge Q1"> Q1-goals</span>
+                        </li>
+                        <li>
+                            <span class="task-status task-undone">&cross;</span>
+                            <span class="task-text"> Interview Jhon H.</span>
+                            <span class="task-badge Recruiting"> Recruiting</span>
+                        </li>
+                        <li>
+                            <span class="task-status task-done">&check;</span>
+                            <span class="task-text"> Summit update to mobile storefronts</span>
+                            <span class="task-badge Mobile"> Mobile</span>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>&blacktriangledown;Upcoming</h3>
+                    <ul class="lista">
+                        <li>
+                            <span class="task-status task-undone">&cross;</span>
+                            <span class="task-text"> Schedule Meeting with Alex</span>
+                            <span class="task-badge Recruiting"> Recruiting</span>
+                        </li>
+                        <li>
+                            <span class="task-status task-done">&check;</span>
+                            <span class="task-text"> Homepage refresh</span>
+                            <span class="task-badge website"> website</span>
+                        </li>
+                        <li>
+                            <span class="task-status task-undone">&cross;</span>
+                            <span class="task-text"> Onboard new Sales team members</span>
+                            <span class="task-badge Sales"> Sales</span>
+                        </li>
+                        <li>
+                            <span class="task-status task-done">&check;</span>
+                            <span class="task-text"> Review editorial character </span>
+                            <span class="task-badge editorial"> Editorial</span>
+                        </li>
+                    </ul>
+                </li>
                 </li>
             </ul>
-
         </div>
     </main>
 
